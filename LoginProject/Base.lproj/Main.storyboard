@@ -55,7 +55,7 @@
                         <outlet property="passwordTextField" destination="gEa-Hn-ak3" id="Hqx-6R-n1d"/>
                         <outlet property="usernameTextField" destination="wtD-qL-wOn" id="2vj-36-PXf"/>
                         <segue destination="Cvg-Iz-hUu" kind="presentation" identifier="loginToMainSegue" id="YEK-OY-2Y3"/>
-                        <segue destination="gfL-vh-sms" kind="presentation" id="kj4-yj-M8o"/>
+                        <segue destination="gfL-vh-sms" kind="presentation" identifier="loginToCreateAccountSegue" id="kj4-yj-M8o"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

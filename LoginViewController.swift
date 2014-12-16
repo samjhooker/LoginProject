@@ -25,8 +25,14 @@ class LoginViewController: UIViewController {
     
 
     @IBAction func loginButtonPressed(sender: AnyObject) {
+        
+        self.performSegueWithIdentifier("loginToMainSegue", sender: self)
+        
     }
     @IBAction func createAccountButtonPressed(sender: AnyObject) {
+        
+        self.performSegueWithIdentifier("loginToCreateAccountSegue", sender: self)
+        
     }
     /*
     // MARK: - Navigation
