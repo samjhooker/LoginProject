@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7E4CED831A40E909007C4607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4CED821A40E909007C4607 /* AppDelegate.swift */; };
-		7E4CED851A40E909007C4607 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4CED841A40E909007C4607 /* ViewController.swift */; };
 		7E4CED881A40E909007C4607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E4CED861A40E909007C4607 /* Main.storyboard */; };
 		7E4CED8A1A40E909007C4607 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4CED891A40E909007C4607 /* Images.xcassets */; };
 		7E4CED8D1A40E909007C4607 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E4CED8B1A40E909007C4607 /* LaunchScreen.xib */; };
 		7E4CED991A40E909007C4607 /* LoginProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4CED981A40E909007C4607 /* LoginProjectTests.swift */; };
+		7E4CEDA31A40E93F007C4607 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4CEDA21A40E93F007C4607 /* LoginViewController.swift */; };
+		7E4CEDA51A40E94F007C4607 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4CEDA41A40E94F007C4607 /* CreateAccountViewController.swift */; };
+		7E4CEDA71A40E95D007C4607 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4CEDA61A40E95D007C4607 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		7E4CED7D1A40E909007C4607 /* LoginProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4CED811A40E909007C4607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E4CED821A40E909007C4607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E4CED841A40E909007C4607 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E4CED871A40E909007C4607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E4CED891A40E909007C4607 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7E4CED8C1A40E909007C4607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7E4CED921A40E909007C4607 /* LoginProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4CED971A40E909007C4607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E4CED981A40E909007C4607 /* LoginProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProjectTests.swift; sourceTree = "<group>"; };
+		7E4CEDA21A40E93F007C4607 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
+		7E4CEDA41A40E94F007C4607 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateAccountViewController.swift; path = ../CreateAccountViewController.swift; sourceTree = "<group>"; };
+		7E4CEDA61A40E95D007C4607 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 		7E4CED7F1A40E909007C4607 /* LoginProject */ = {
 			isa = PBXGroup;
 			children = (
+				7E4CEDA21A40E93F007C4607 /* LoginViewController.swift */,
+				7E4CEDA41A40E94F007C4607 /* CreateAccountViewController.swift */,
+				7E4CEDA61A40E95D007C4607 /* MainViewController.swift */,
 				7E4CED821A40E909007C4607 /* AppDelegate.swift */,
-				7E4CED841A40E909007C4607 /* ViewController.swift */,
 				7E4CED861A40E909007C4607 /* Main.storyboard */,
 				7E4CED891A40E909007C4607 /* Images.xcassets */,
 				7E4CED8B1A40E909007C4607 /* LaunchScreen.xib */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E4CED851A40E909007C4607 /* ViewController.swift in Sources */,
+				7E4CEDA51A40E94F007C4607 /* CreateAccountViewController.swift in Sources */,
+				7E4CEDA31A40E93F007C4607 /* LoginViewController.swift in Sources */,
 				7E4CED831A40E909007C4607 /* AppDelegate.swift in Sources */,
+				7E4CEDA71A40E95D007C4607 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
